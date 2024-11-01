@@ -12,7 +12,7 @@ namespace CS_from
 {
     class TestButton:Button
     {
-        public TestButton(int X, int y)
+        public TestButton(int X, int y,int width,int height)
         {
             //ClickイベントにOnClick関数を登録
             Click += OnClick;
@@ -20,11 +20,12 @@ namespace CS_from
             Text = "wawaaaw";
 
             Location = new Point(X,y);
+            Size = new Size(width,height);
         }
 
         public void OnClick(object sender,EventArgs s)
         {
-            MessageBox.Show("ｓｓｓｓｊｆｊさｈｄ");
+            MessageBox.Show("いまきた");
         }
     }
 }
