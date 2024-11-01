@@ -54,15 +54,14 @@ namespace CS_from
             ////
             ////TestButton testButton = new TestButton(i,t,100,100);
             ////行
-            for (int i = 0; i<3; i++)
-            {
-
-                for(int t=0; t<3; t++)
-                {
-                 TestButton testButton11 = new TestButton(i*100, t*100, 100, 100);
+            ///
+           
+            for (int i = 0; i<10; i++)
+            { 
+                 TestButton testButton11 = new TestButton(i,(i%3)*100, (i/3)*100, 100, 100);
                 Controls.Add(testButton11);
 
-                }
+                
               
             }
            

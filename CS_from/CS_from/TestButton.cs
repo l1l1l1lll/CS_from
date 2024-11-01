@@ -12,12 +12,13 @@ namespace CS_from
 {
     class TestButton:Button
     {
-        public TestButton(int X, int y,int width,int height)
+        
+        public TestButton(int id,int X, int y,int width,int height)
         {
             //ClickイベントにOnClick関数を登録
             Click += OnClick;
 
-            Text = "wawaaaw";
+            Text = ($"{id}");
 
             Location = new Point(X,y);
             Size = new Size(width,height);
