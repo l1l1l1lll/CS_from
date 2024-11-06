@@ -18,7 +18,7 @@ namespace CS_from
             //ClickイベントにOnClick関数を登録
             Click += OnClick;
 
-            Text = ($"{id}");
+            Text = id.ToString();
 
             Location = new Point(X,y);
             Size = new Size(width,height);
@@ -26,7 +26,7 @@ namespace CS_from
 
         public void OnClick(object sender,EventArgs s)
         {
-            MessageBox.Show("いまきた");
+            MessageBox.Show(Text);
         }
     }
 }
