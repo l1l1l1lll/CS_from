@@ -22,7 +22,7 @@ namespace CS_from
             for (int i = 0; i<10; i++)
             { 
                  TestButton testButton11 = new TestButton(this,i,(i%3)*100, (i/3)*100, 100, 100);
-                Controls.Add(testButton11);
+               Controls.Add(testButton11);
 
             }
 
