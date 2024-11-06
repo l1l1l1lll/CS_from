@@ -17,9 +17,9 @@ namespace CS_from
         {
             //ClickイベントにOnClick関数を登録
             Click += OnClick;
-
+         
             Text = id.ToString();
-
+         
             Location = new Point(X,y);
             Size = new Size(width,height);
         }

@@ -23,23 +23,10 @@ namespace CS_from
                 Controls.Add(testButton11);
 
             }
-           
-            
-            
-            
-            
-            
-            
-            //
-            //
-            //
-            //
-            //
-            //
-            //
-            //
-            //
-            //
+
+            TestLabel testLabel =
+                new TestLabel("llll", 300, 300, 500,500);
+        Controls.Add(testLabel);
         }
     }
 }
