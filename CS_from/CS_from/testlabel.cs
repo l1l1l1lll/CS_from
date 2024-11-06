@@ -17,7 +17,14 @@ namespace CS_from
             Location = new Point(x, y);
             Size = new Size(width, height);
         }
-
+        /// <summary>
+        /// "ラベルの文字を更新する関数"
+        /// </summary>
+        /// <param name="str"></param>
+        public void TextUpdate(string str)
+        {
+            Text = str;
+        }
    
     }
 
